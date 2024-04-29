@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: greenyellow;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 70vh;
+}
+.Game{
+   height: 60vmin;
+   width: 60vmin;
+   display: flex;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+   padding: 15px;
+   gap: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 15vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem;
+    font-size: 10vmin;
+    color: brown;
+    background-color: seashell;
+}
+#btn{
+    padding: 1rem;
+    font-size: 1.15rem;
+    align-items: center;
+}  
+.Resetbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
